@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+html {
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width: 870px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .nav-cal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bx {
+    display: block !important;
+    font-size: 52px;
+  }
+  .menu a {
+    display: none;
+  }
+  .card p {
+    font-size: 10px;
+  }
+  .card b {
+    font-size: 10px;
+  }
+  .icon p {
+    font-size: 10px;
+  }
+  .text h4 {
+    font-size: 4px;
+    font-weight: 200;
+  }
+  .text-left p {
+    font-size: 8px;
+  }
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0px;
+  align-items: center;
+}
+header nav .menu {
+  display: flex;
+  gap: 34px;
+}
+header nav .menu a {
+  text-decoration: none;
+  color: #282B22;
+  font-weight: 500;
+}
+header nav .nav-cal {
+  display: flex;
+  align-items: center;
+}
+header nav .nav-cal .icons {
+  margin-left: 54px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+header nav .bx {
+  display: none;
+}
+header .header-bag {
+  background-image: url(../images/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  height: 687px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header .header-bag .oldi {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) -13.19%, rgba(0, 0, 0, 0.85) 94.01%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .header-bag .oldi h2 {
+  font-size: 56px;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  line-height: 67.2px;
+  text-transform: uppercase;
+}
+header .header-bag .oldi p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+header .header-bag .oldi button {
+  padding: 12px 32px;
+  background: #AE7B3C;
+  border: none;
+  color: white;
+  margin-top: 22px;
+  font-size: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.cards .left-card {
+  border-left: 1px solid rgb(192, 190, 190);
+}
+.cards .card {
+  border-right: 1px solid rgb(185, 184, 184);
+  padding: 0px 30px;
+}
+.cards .card img {
+  width: 333px;
+  height: 320px;
+}
+.cards .card b {
+  color: #9a9c95;
+  font-weight: 500;
+}
+.cards .card p {
+  padding-top: 28px;
+  font-weight: 600;
+  color: #3D4A39;
+}
+
+.back {
+  height: auto;
+  margin-top: 90px;
+  background: #3D4A39;
+}
+.back .title-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 200;
+  padding: 14px 0px;
+}
+.back .icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 30px 0px;
+}
+.back .icons .icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.back .icons .icon p {
+  color: rgb(184, 183, 183);
+}
+.back .icons .icon img {
+  width: 70px;
+  height: 70px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+.text h4 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-1 {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(197, 196, 196);
+  border-top: 1px solid rgb(197, 196, 196);
+  padding: 12px;
+}
+.text-1 img {
+  width: 18px;
+  height: 18px;
+  margin-top: 18px;
+}
+.text-1 .right {
+  border-left: 1px solid rgb(204, 202, 202);
+  padding-left: 18px;
+}
+.text-1 .text-left {
+  display: flex;
+}
+.text-1 .text-left p {
+  padding-left: 14px;
+}/*# sourceMappingURL=main.css.map */

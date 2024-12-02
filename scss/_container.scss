@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+@media screen and (max-width:870px) {
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+
+    .nav-cal {
+        display: flex;
+        justify-content: space-between;
+
+    
+    }  
+        .bx {
+            display: block !important;
+            font-size: 52px;
+
+        }
+    
+     
+
+    .menu a {
+        display: none;
+    }
+
+    .card {
+
+        p {
+            font-size: 10px;
+        }
+
+        b {
+            font-size: 10px;
+        }
+    }
+
+    .icon {
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .text {
+        h4 {
+            font-size: 4px;
+            font-weight: 200;
+        }
+    }
+
+    .text-left {
+        p {
+            font-size: 8px;
+        }
+    }
+}

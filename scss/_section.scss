@@ -1,0 +1,123 @@
+  .title {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+      text-transform: uppercase;
+      font-weight: 600;
+      padding: 30px;
+  }
+
+  .cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+
+
+
+      .left-card {
+          border-left: 1px solid rgb(192, 190, 190);
+      }
+
+      .card {
+          border-right: 1px solid rgb(185, 184, 184);
+          padding: 0px 30px;
+            
+           img{
+            width: 333px;
+            height: 320px;
+           }
+          b {
+              color: #9a9c95;
+              font-weight: 500;
+          }
+
+          p {
+              padding-top: 28px;
+              font-weight: 600;
+              color: #3D4A39;
+
+          }
+      }
+  }
+
+  .back {
+      height: auto;
+      margin-top: 90px;
+      background: #3D4A39;
+
+      .title-2 {
+          display: flex;
+          justify-content: center;
+          color: white;
+          font-size: 28px;
+          text-transform: uppercase;
+          font-weight: 200;
+          padding: 14px 0px;
+      }
+
+      .icons {
+          display: grid;
+          grid-template-columns: auto auto auto;
+         padding: 30px 0px;
+
+
+          .icon {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              padding: 20px 0px;
+
+              p {
+                  color: rgb(184, 183, 183);
+              }
+
+              img {
+                  width: 70px;
+                  height: 70px;
+
+              }
+          }
+      }
+
+  }
+
+  .text {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0px;
+
+      h4 {
+          text-align: center;
+          font-size: 30px;
+          font-weight: 500;
+      }
+  }
+
+  .text-1{
+      display: flex;
+      justify-content: space-around;
+      border-bottom: 1px solid rgb(197, 196, 196);
+      border-top: 1px solid rgb(197, 196, 196)  ;
+      padding: 12px ;
+    
+        img{
+            width: 18px;
+            height: 18px;
+            margin-top: 18px;
+        }
+        .right{
+            border-left: 1px solid rgb(204, 202, 202);
+            padding-left: 18px;
+
+        }
+            .text-left {
+              display: flex;
+              
+             
+              p{
+                padding-left: 14px;
+              }
+            }
+
+            
+  }
